@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+body{
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.hex-colors{
+    text-align: center;
+}
+h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color:black;
+    animation: changeColor 5s infinite alternate;
+}
+h2{
+    border:1px solid black;
+    font-size: 2rem;
+    margin-top:15%;
+}
+
+@keyframes changeColor{
+0% {color:black}
+20% {color:yellow}
+40% {color:red}
+60% {color:orange}
+80% {color:green}
+100% {color:gray}
+}
